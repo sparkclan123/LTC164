@@ -1,0 +1,59 @@
+@charset "utf-8";
+body {
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 12px;
+/*	
+	background-image:url(../images/PageBackground.gif);
+	background-repeat:repeat-x;
+	background-color:#e3ff02;
+*/	
+}
+
+a:link{
+	color: #06F;
+	text-decoration: none;	
+	
+}
+
+a:visited{
+	color: #06F;
+	text-decoration: none;	
+	
+}
+
+a:active{
+	color: #06F;
+	text-decoration: none;	
+	
+}
+
+a:hover{
+	color:#F60;
+	text-decoration: none;	
+	
+}
+
+.CollapsiblePanelTab{
+	background-color:#3E91BD !important;
+	line-height:18px;
+	color:#FFF;
+	padding-left:5px;
+	font-size:14px;
+	font-weight:normal !important;
+}
+
+.CollapsiblePanelContent table{
+    border-spacing: 0px;
+    border-collapse: separate;	
+}
+
+.CollapsiblePanelContent td{
+	border-bottom:1px #CCCCCC solid;
+}
+
+.CollapsiblePanelContent a{
+	line-height:18px;
+	font-size:13px;
+	color:#858585 !important;
+	font-weight:bold;
+}
