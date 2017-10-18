@@ -12,23 +12,24 @@ table tr td {
 	font-size:0.95em;
 }
 </style>
-<link href="/page.css" rel="stylesheet" type="text/css">
-<link href="/menu.css" rel="stylesheet" type="text/css">
-<!--<link href="bootstrap/css/bootstrap.css" rel="stylesheet" type="text/css">-->
+<!--<link href="./page.css" rel="stylesheet" type="text/css">-->
+<!--<link href="./menu.css" rel="stylesheet" type="text/css">-->
+
+<link href="bootstrap/css/bootstrapfly.css" rel="stylesheet" type="text/css">
 </head>
 
 <body>
-<table width="100%" border="0" cellpadding="2" cellspacing="0" class="TableA">
+<table class="table table-striped has-success">
 <thead>
   <tr>
-    <th scope="col">ข้อมูล
-      <a href="http://sma.sbo991.com/frameset.php?langindex=0" target="_top">ไทย</a>/<a href="http://sma.sbo991.com/frameset.php?langindex=1" target="_top">English</a></th>
+    <th class="info">ข้อมูล
+      <a href="http://sma.sbo991.com/frameset.php?langindex=0" target="_top" >ไทย</a>/<a href="http://sma.sbo991.com/frameset.php?langindex=1" target="_top">English</a></th>
   </tr>
   </thead>
   <tbody class="leftInfo">
-  <tr>
+  <tr class="active">
     <td>งวดวันที่ : 
-      <select size="1" id="select_round" name="select_round" style="width:90px;" tabindex="17" onchange="location.href=&#39;frameset.php?lotid=&#39;+this.value;">
+      <select >
               
       <option value="184" selected="selected">16/10/2017</option>
               
@@ -74,13 +75,13 @@ table tr td {
     <td>Username : <strong><span id="Span1">Z0</span></strong></td>
   </tr>
   <tr>
-    <td>สมาชิก : <strong><span id="memberCount">0</span></strong></td>
+    <td class="active">สมาชิก : <strong><span id="memberCount">0</span></strong></td>
   </tr>
   <tr>
     <td>เครดิตที่ใช้ : <strong><span id="credit">0</span></strong></td>
   </tr>
   <tr>
-    <td>สมาชิกออนไลน์ : <strong><span id="onlinePlayer">1</span></strong></td>
+    <td class="active">สมาชิกออนไลน์ : <strong><span id="onlinePlayer">1</span></strong></td>
   </tr>
   </tbody>
 </table>

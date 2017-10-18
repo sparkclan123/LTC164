@@ -1,13 +1,22 @@
 body {
 	font-family:Tahoma, Geneva, sans-serif;
 	font-size:12px;
+background: rgba(255,255,255,0.11);
+background: -moz-linear-gradient(left, rgba(255,255,255,0.11) 0%, rgba(92,169,237,0.13) 11%, rgba(255,255,255,0.16) 22%, rgba(129,176,218,0.18) 31%, rgba(73,141,201,0.18) 35%, rgba(149,170,222,0.17) 45%, rgba(73,141,201,0.16) 54%, rgba(121,159,214,0.16) 61%, rgba(149,170,222,0.16) 65%, rgba(73,141,201,0.16) 75%, rgba(255,255,255,0.16) 83%, rgba(73,141,201,0.16) 91%, rgba(255,255,255,0.16) 100%);
+background: -webkit-gradient(left top, right top, color-stop(0%, rgba(255,255,255,0.11)), color-stop(11%, rgba(92,169,237,0.13)), color-stop(22%, rgba(255,255,255,0.16)), color-stop(31%, rgba(129,176,218,0.18)), color-stop(35%, rgba(73,141,201,0.18)), color-stop(45%, rgba(149,170,222,0.17)), color-stop(54%, rgba(73,141,201,0.16)), color-stop(61%, rgba(121,159,214,0.16)), color-stop(65%, rgba(149,170,222,0.16)), color-stop(75%, rgba(73,141,201,0.16)), color-stop(83%, rgba(255,255,255,0.16)), color-stop(91%, rgba(73,141,201,0.16)), color-stop(100%, rgba(255,255,255,0.16)));
+background: -webkit-linear-gradient(left, rgba(255,255,255,0.11) 0%, rgba(92,169,237,0.13) 11%, rgba(255,255,255,0.16) 22%, rgba(129,176,218,0.18) 31%, rgba(73,141,201,0.18) 35%, rgba(149,170,222,0.17) 45%, rgba(73,141,201,0.16) 54%, rgba(121,159,214,0.16) 61%, rgba(149,170,222,0.16) 65%, rgba(73,141,201,0.16) 75%, rgba(255,255,255,0.16) 83%, rgba(73,141,201,0.16) 91%, rgba(255,255,255,0.16) 100%);
+background: -o-linear-gradient(left, rgba(255,255,255,0.11) 0%, rgba(92,169,237,0.13) 11%, rgba(255,255,255,0.16) 22%, rgba(129,176,218,0.18) 31%, rgba(73,141,201,0.18) 35%, rgba(149,170,222,0.17) 45%, rgba(73,141,201,0.16) 54%, rgba(121,159,214,0.16) 61%, rgba(149,170,222,0.16) 65%, rgba(73,141,201,0.16) 75%, rgba(255,255,255,0.16) 83%, rgba(73,141,201,0.16) 91%, rgba(255,255,255,0.16) 100%);
+background: -ms-linear-gradient(left, rgba(255,255,255,0.11) 0%, rgba(92,169,237,0.13) 11%, rgba(255,255,255,0.16) 22%, rgba(129,176,218,0.18) 31%, rgba(73,141,201,0.18) 35%, rgba(149,170,222,0.17) 45%, rgba(73,141,201,0.16) 54%, rgba(121,159,214,0.16) 61%, rgba(149,170,222,0.16) 65%, rgba(73,141,201,0.16) 75%, rgba(255,255,255,0.16) 83%, rgba(73,141,201,0.16) 91%, rgba(255,255,255,0.16) 100%);
+background: linear-gradient(to right, rgba(255,255,255,0.11) 0%, rgba(92,169,237,0.13) 11%, rgba(255,255,255,0.16) 22%, rgba(129,176,218,0.18) 31%, rgba(73,141,201,0.18) 35%, rgba(149,170,222,0.17) 45%, rgba(73,141,201,0.16) 54%, rgba(121,159,214,0.16) 61%, rgba(149,170,222,0.16) 65%, rgba(73,141,201,0.16) 75%, rgba(255,255,255,0.16) 83%, rgba(73,141,201,0.16) 91%, rgba(255,255,255,0.16) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ffffff', GradientType=1 );
+
 /*	
 	background-color: #ff9702;
 	background-image: url(../images/PageBackground.gif);
 	background-repeat: repeat-x;
 */	
 }
-.TableA{
+/*.TableA{
 	
 	border: 1px solid #000000;
 	background-color: #FFFFFF;
@@ -95,7 +104,6 @@ body {
 	font-weight: 700;
 }
 
-/* for Betlist */
 .BetlistPlayer{
 	color:#FF0000;
 }
@@ -114,7 +122,6 @@ body {
 	color:#999999;
 	font-size:12px;
 }
-/* for Betlist */
 
 .GameOpen{
 	color:#0033FF;
@@ -123,7 +130,6 @@ body {
 	color:#999999;
 }
 
-/* Member Mgmt */
 .open{
 	background-color:#FFFFFF;
 }
@@ -167,7 +173,6 @@ body {
 	color:#999;
 }
 
-/* Used with crosshairs.js */
 .hoverHilight {
 	background-color: #ffffc0;
 	cursor: pointer;
@@ -179,14 +184,7 @@ body {
 }
 
 
-/*
-Plugin Name: WP-Digg Style Paginator
-Plugin URI: http://www.mis-algoritmos.com/2007/09/09/wp-digg-style-pagination-plugin-v-10/
-Author: Victor De la Rocha
-Author URI: http://www.mis-algoritmos.com
-*/
 
-/*CSS Sabrosus style pagination*/
 div.pagination {
 	padding:3px;
 	margin:3px;
@@ -313,4 +311,4 @@ tbody.leftInfo td{
 	font-size:13px;
 
 }
-
+*/
